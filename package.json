@@ -1,0 +1,27 @@
+{
+  "name": "monthly",
+  "version": "0.0.1",
+  "description": "Plugin para calendar mes",
+  "main": "no",
+  "dependencies": {
+    "jquery": "^2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-less": "^1.1.0",
+    "grunt-contrib-uglify": "^0.11.0"
+  },
+  "scripts": {
+    "test": "OK!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andersonpensephp/monthly.git"
+  },
+  "author": "Anderson Reis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonpensephp/monthly/issues"
+  }
+}

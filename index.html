@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="bt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Monthly</title>
+    <link rel="stylesheet" href="reset/reset.css">
+    <link rel="stylesheet" href="src/css/monthly.min.css">
+    <style>
+    body {
+        background: #eee;
+    }
+        input {
+            width: 250px;
+            height: 32px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="monthly-read" type="text">
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="src/js/monthly.min.js"></script>
+
+    <script charset="utf-8">
+    !function(){
+        $('#monthly-read').Monthly();
+    }();
+    </script>
+</body>
+
+</html>
