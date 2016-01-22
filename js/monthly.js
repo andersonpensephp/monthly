@@ -1,5 +1,5 @@
 /*!
-HuMonthly: jquery plugin for calendar month
+    Monthly: jquery plugin for calendar month
 */
 (function($) {
 
